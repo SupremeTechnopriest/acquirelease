@@ -1,7 +1,7 @@
 {
   "name": "acquirelease",
   "version": "1.0.0",
-  "description": "A small typed utility for bracket/transaction/scope-based resource acquisition and release.",
+  "description": "A small typed utility for bracket/transaction/scope-based resource acquisition and release",
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
