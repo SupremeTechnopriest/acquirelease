@@ -272,7 +272,7 @@ No release will be called for that resource.
 
 ## Testing
 
-A test suite using [Bun’s built-in test runner](https://bun.sh) is provided in [`tests/index.test.ts`](./tests/index.test.ts). It demonstrates:
+A test suite using [Bun’s built-in test runner](https://bun.sh) is provided in [`test/index.test.ts`](./tests/index.test.ts). It demonstrates:
 
 - **Synchronous** acquire/release
 - **Asynchronous** acquire/release
