@@ -1,0 +1,8 @@
+src
+tests
+node_modules
+bun.lockb
+tsconfig.json
+.prettierrc
+.gitignore
+

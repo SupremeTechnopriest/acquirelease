@@ -1,0 +1,41 @@
+{
+  "name": "acquirelease",
+  "version": "1.0.0",
+  "description": "A small typed utility for bracket/transaction/scope-based resource acquisition and release.",
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "bun test --coverage",
+    "build": "bun build ./src/index.ts --outdir ./dist && tsc",
+    "prepare": "bun run test && bun run build"
+  },
+  "author": "Randy Lebeau <hi@randylebeau.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SupremeTechnopriest/acquirelease.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SupremeTechnopriest/acquirelease/issues"
+  },
+  "homepage": "https://github.com/SupremeTechnopriest/acquirelease#readme",
+  "keywords": [
+    "acquire-release",
+    "transaction",
+    "scope",
+    "bracket",
+    "lifecycle",
+    "management",
+    "resource",
+    "resource-management",
+    "resource-lifecycle",
+    "rollback",
+    "workflow",
+    "temporal"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}
